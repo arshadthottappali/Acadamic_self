@@ -1,0 +1,38 @@
+{
+  "name": "acad-site-builder",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.0",
+    "bcryptjs": "^3.0.2",
+    "clsx": "^2.1.1",
+    "grapesjs": "^0.22.13",
+    "jszip": "^3.10.1",
+    "next": "^14.2.0",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.38",
+    "prisma": "^6.17.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
